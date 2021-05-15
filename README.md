@@ -27,7 +27,7 @@ Returns:
 example-project-with-unit-tests-node.zip
 ```
 
-Fetching: `https://testsapi.replapiit.repl.co/HelperFurret/Example-Project-with-Unit-Tests-Python?filename=ExampleTest1`  
+Fetching: `https://testsapi.replapiit.repl.co/HelperFurret/Example-Project-with-Unit-Tests-Python?testname=ExampleTest1`  
 Returns:
 ```txt
 # Test 33190: ExampleTest1
