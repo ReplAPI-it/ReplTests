@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 [contributors-shield]: https://img.shields.io/github/contributors/ReplAPI-it/ReplTests.svg?style=for-the-badge
 [contributors-url]: https://github.com/ReplAPI-it/ReplTests/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ReplAPI-its/ReplTest.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ReplAPI-it/ReplTests.svg?style=for-the-badge
 [forks-url]: https://github.com/ReplAPI-it/ReplTests/network/members
 [stars-shield]: https://img.shields.io/github/stars/ReplAPI-it/ReplTests.svg?style=for-the-badge
 [stars-url]: https://github.com/ReplAPI-it/ReplTests/stargazers
