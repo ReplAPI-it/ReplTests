@@ -1,0 +1,14 @@
+# Directories
+node_modules/
+
+# Files
+.eslintrc.json
+.eslintignore
+.prettierrc.json
+.replapirc.json
+.replit
+.gitignore
+package.json
+package-lock.json
+LICENSE
+README.md
