@@ -61,13 +61,13 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-[contributors-shield]: https://img.shields.io/github/contributors/ReplAPI-it/ReplTest.svg?style=for-the-badge
-[contributors-url]: https://github.com/ReplAPI-it/ReplTest/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ReplAPI-it/ReplTest.svg?style=for-the-badge
-[forks-url]: https://github.com/ReplAPI-it/ReplTest/network/members
-[stars-shield]: https://img.shields.io/github/stars/ReplAPI-it/ReplTest.svg?style=for-the-badge
-[stars-url]: https://github.com/ReplAPI-it/ReplTest/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ReplAPI-it/ReplTest.svg?style=for-the-badge
-[issues-url]: https://github.com/ReplAPI-it/ReplTest/issues
-[license-shield]: https://img.shields.io/github/license/ReplAPI-it/ReplTest.svg?style=for-the-badge
-[license-url]: https://github.com/ReplAPI-it/ReplTest/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ReplAPI-it/ReplTests.svg?style=for-the-badge
+[contributors-url]: https://github.com/ReplAPI-it/ReplTests/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ReplAPI-its/ReplTest.svg?style=for-the-badge
+[forks-url]: https://github.com/ReplAPI-it/ReplTests/network/members
+[stars-shield]: https://img.shields.io/github/stars/ReplAPI-it/ReplTests.svg?style=for-the-badge
+[stars-url]: https://github.com/ReplAPI-it/ReplTests/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ReplAPI-it/ReplTests.svg?style=for-the-badge
+[issues-url]: https://github.com/ReplAPI-it/ReplTests/issues
+[license-shield]: https://img.shields.io/github/license/ReplAPI-it/ReplTests.svg?style=for-the-badge
+[license-url]: https://github.com/ReplAPI-it/ReplTests/blob/master/LICENSE.txt
