@@ -29,15 +29,15 @@ app.get('/:username/:slug', async (req, res) => {
 			const zip = new AdmZip(zipPath);
 			const entry = zip.getEntry(`${testname.toLowerCase()}.test.${result[1] === 'nodejs' ? 'js' : result[1] === 'python3' ? 'py' : 'java'}`);
 			
-			res.end(zip.readAsText(entry));
+			res.status(200).end(zip.readAsText(entry));
 			rimraf(zipPath, () => {});
 		} else {
 			const zipPath = path.join(process.cwd(), `${slug.toLowerCase()}.zip`)
-			res.download(zipPath);
+			res.status(200).download(zipPath)
 			rimraf(zipPath, () => {});
 		}
 	} else {
-		res.end(result);
+		res.status(403).end(result);
 	}
 });
 

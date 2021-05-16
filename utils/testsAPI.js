@@ -151,9 +151,9 @@ class StandardTests {
 
 export default async function testsAPI(username, slug) {
 	const myRepl = new replapi.Repl(username, slug);
-	const { language, hasUnitTesting, unitTests } =
+	const { language, unitTests } =
 		await myRepl.replGraphQLData();
-	if (hasUnitTesting) {
+	if (unitTests !== null) {
 		const tmpPath = path.join(process.cwd(), nanoid());
 		switch(language) {
 			case 'nodejs': 
@@ -166,7 +166,7 @@ export default async function testsAPI(username, slug) {
 				unitTestJava(tmpPath, unitTests);
 				break;
 			default:
-				return JSON.stringify({ error: 'No Unit Testing on Specified Repl.' });
+				return JSON.stringify({ error: `Unit Testing not available for ${language} repls.` });
 				break;
 		}
 		const zip = new AdmZip();
