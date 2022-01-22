@@ -15,7 +15,7 @@
     "adm-zip": "^0.5.5",
     "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",
-    "nanoid": "^3.1.23",
+    "nanoid": "^3.1.31",
     "replapi-it": "^2.3.3",
     "rimraf": "^3.0.2"
   },
